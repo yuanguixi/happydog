@@ -1,10 +1,5 @@
 package com.yguixi.happydog.activity;
 /*
- *  项目名：  LoveWallpaper 
- *  包名：    com.liuguilin.lovewallpaper.activity
- *  文件名:   AboutActivity
- *  创建者:   LGL
- *  创建时间:  2017/1/16 19:57
  *  描述：    关于
  */
 
@@ -38,10 +33,10 @@ public class AboutActivity extends BaseActivity implements View.OnClickListener,
 
     private void initView() {
 
-        mList.add("作者:刘某人");
-        mList.add("Github");
-        mList.add("CSDN Blog");
-        mList.add("QQ群:555974449");
+        mList.add("作者:喜狗");
+        mList.add("yguixi.com");
+        mList.add("非商用");
+        mList.add("QQ:57854190");
 
         profile_image = (CircleImageView) findViewById(R.id.profile_image);
         profile_image.setOnClickListener(this);
@@ -67,7 +62,7 @@ public class AboutActivity extends BaseActivity implements View.OnClickListener,
                 //不需要
                 break;
             case 1:
-                Constants.startWebView(this, "Github", Constants.GITHUB);
+                Constants.startWebView(this, "yguixi.com", Constants.GITHUB);
                 break;
             case 2:
                 Constants.startWebView(this, "CSDN Blog", Constants.BLOG);

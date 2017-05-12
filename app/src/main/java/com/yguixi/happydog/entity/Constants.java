@@ -70,11 +70,11 @@ public class Constants {
     public static final String URL_DOWNLOAD_WECHAT = "http://app.sina.cn/appdetail.php?appID=93134";
 
     //Blog
-    public static final String BLOG = "http://blog.csdn.net/qq_26787115";
+    public static final String BLOG = "https://yguixi.com";
     //Github
-    public static final String GITHUB = "https://github.com/LiuGuiLinAndroid";
+    public static final String GITHUB = "https://yguixi.com";
     //项目 Github
-    public static final String LOVE_WALLPAPER_GITHUB = "https://github.com/LiuGuiLinAndroid/LoveWallpaper";
+    public static final String LOVE_WALLPAPER_GITHUB = "https://yguixi.com";
 
     //心知天气key
     public static final String THINKPAPE_KEY = "cjfbaiq6lln0oqk1";
