@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.tencent.bugly.Bugly;
 import com.yguixi.happydog.activity.SettingActivity;
 import com.yguixi.happydog.entity.Constants;
 import com.yguixi.happydog.fragment.AlbumFragment;
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Bugly.init(getApplicationContext(), "617323be54", false);
         initView();
     }
 

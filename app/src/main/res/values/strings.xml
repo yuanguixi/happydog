@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LoveWallpaper</string>
+    <string name="app_name">喜狗</string>
     <string name="text_home_page">首页</string>
     <string name="text_category">分类</string>
     <string name="text_ranking">排名</string>
@@ -19,4 +19,7 @@
     <string name="is_install_wechat">您还没有安装微信，是否前往浏览器下载？</string>
     <string name="text_game">游戏</string>
     <string name="text_phone">手机</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
